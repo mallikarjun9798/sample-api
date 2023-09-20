@@ -102,21 +102,20 @@ button:disabled{
   position: relative;
 }
 a.apiProviders:hover{
-  height: 50px;
+  /* height: 50px; */
   background-color: #000;
   text-decoration: none;
   display: block;
   width: 100%;
 }
 .apiProviderName{
-  height: 50px;
+  /* height: 50px; */
   width: 100%;
   margin-bottom: 5px;
 }
 .closeButton{
   width: 25px;
   height: 25px;
-  padding-left: 5px;
   border-radius: 25px;
   border: 2px solid red;
   position: absolute;
@@ -125,7 +124,7 @@ a.apiProviders:hover{
   cursor: pointer;
   margin-bottom: 10px;
   color: red;
-  padding-bottom: 10px;
+  text-align: center;
 }
 
 .spacer-bottom{
@@ -188,12 +187,11 @@ a.apiProviders:hover{
   background: #0073cf;
   top: 0;
   right: 0;
-  /* right: 100%; */
+  overflow: auto;
   width: 40%;
   z-index: 9;
   box-shadow: 1px 0px 7px rgba(0, 0, 0, 0.5);
   transform: translateX(100%);
-  /* transform: translateX(0%); */
   transition: transform 0.3s ease-out;
 }
 .side-drawer.open {
